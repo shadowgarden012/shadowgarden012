@@ -1,30 +1,31 @@
-
-| Project | Mission / Architecture | Weapons of Choice | Status |
-|:---|:---|:---|:---:|
-| 🌌 **[Autonomous-Agent-Core](https://github.com/shadowgarden012)** | Multi-agent orchestration engine with adaptive memory & self-healing DAG workflows | `Python` `LangChain` `FastAPI` `Redis` | `Deployed` 🟢 |
-| 🛡️ **[Sentinel-Mesh](https://github.com/shadowgarden012)** | Zero-trust distributed microservices telemetry & automated threat mitigation | `Go` `Rust` `gRPC` `Kubernetes` | `Active` 🟢 |
-| ⚡ **[Shadow-Stream-Engine](https://github.com/shadowgarden012)** | Ultra-low latency event streaming & processing pipeline for high-throughput metrics | `C++` `Kafka` `Docker` `ClickHouse` | `Optimizing` 🟡 |
-| 🔮 **[Quantum-UI-Design-System](https://github.com/shadowgarden012)** | Hyper-customizable dark-mode cyberpunk design library with micro-interactions | `Next.js` `TypeScript` `TailwindCSS` | `Shipped` 🚀 |
-
----
-
-## 💬 Summoning & Frequencies
-
-Whether you want to collaborate on breakthrough open-source initiatives, discuss autonomous AI systems, or architect resilient distributed infrastructures:
-
-<p align="center">
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
-  <a href="https://twitter.com"><img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=x" alt="Twitter"></a>
-  <a href="mailto:contact@shadowgarden.dev"><img src="https://img.shields.io/badge/PGP_Encrypted_Mail-Send_Signal-9D4EDD?style=for-the-badge&logo=protonmail" alt="Email"></a>
-  <a href="https://discord.com"><img src="https://img.shields.io/badge/Discord-Enter_Garden-5865F2?style=for-the-badge&logo=discord" alt="Discord"></a>
-</p>
-
----
-
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                      SHADOW GARDEN — PROFILE README                     -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 <div align="center">
-
-> *"I am that which lurks in the abyss. I am the silence between commands."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,13,22,23,26&height=100&section=footer" width="100%" />
-
-</div>
+<!-- ░░░ ANIMATED WAVE HEADER ░░░ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,20,24&height=250&section=header&text=SHADOW%20GARDEN&fontSize=55&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=%E2%9A%A1%20Full-Stack%20%E2%80%A2%20Cloud%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Cybersecurity%20%E2%80%A2%20Systems&descSize=19&descAlignY=63&descColor=BB86FC"/>
+<!-- ░░░ ANIMATED TYPING ░░░ -->
+<a href="https://github.com/shadowgarden012">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=9D4EDD&center=true&vCenter=true&multiline=false&width=750&height=55&lines=⚡+I+am+Shadow+—+Architect+of+Digital+Realms;🧠+AI%2FML+Engineer+%26+LLM+Orchestration+Specialist;🛡️+Cybersecurity+Researcher+%26+Ethical+Hacker;☁️+Cloud-Native+%26+Kubernetes+Cluster+Maestro;🌌+Operating+from+the+shadows+to+build+the+future" alt="Typing Animation"/>
+</a>
+<br/>
+<!-- ░░░ BADGES ROW ░░░ -->
+<p>
+  <img src="https://komarev.com/ghpvc/?username=shadowgarden012&label=👁️+OBSERVERS&color=7928CA&style=flat-square&abbreviated=true"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/⚔️_STATUS-OPERATING_IN_STEALTH-0D1117?style=flat-square&labelColor=7928CA"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/🕐_TIMEZONE-UTC%2B5:30-0D1117?style=flat-square&labelColor=BB86FC&color=0D1117"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/🔐_CLEARANCE-LEVEL_OMEGA-0D1117?style=flat-square&labelColor=FF0080"/>
+</p>
+<!-- ░░░ SOCIAL BADGES ░░░ -->
+<p>
+  <a href="https://linkedin.com/in/shadowgarden"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  &nbsp;
+  <a href="https://twitter.com/shadowgarden012"><img src="https://img.shields.io/badge/Twitter%2FX-%23000000?style=for-the-badge&logo=x&logoColor=white"/></a>
+  &nbsp;
+  <a href="https://discord.gg/shadow"><img src="https://img.shields.io/badge/Discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white"/></a>
+  &nbsp;
+  <a href="mailto:shadow@shadowgarden.dev"><img src="https://img.shields.io/badge/ProtonMail-%238B89CC?style=for-the-badge&logo=protonmail&logoColor=white"/></a>
+  &nbsp;
