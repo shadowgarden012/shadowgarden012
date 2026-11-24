@@ -1,29 +1,33 @@
-name: 📊 Auto-Update README Stats
+name: Auto-Update README Stats
 on:
   schedule:
-    - cron: "0 0 * * *"    # Runs every day at midnight UTC
-  workflow_dispatch:         # Manual trigger
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+# Explicitly grant write access to repo contents
+permissions:
+  contents: write
 jobs:
   update:
     name: Refresh README Metrics
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
-      - name: Refresh GitHub Stats Cache
+        uses: actions/checkout@v4.2.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Refresh Stats Cache
         run: |
-          echo "Pinging stats services to refresh cache for shadowgarden012..."
-          curl -s "https://github-readme-stats.vercel.app/api?username=shadowgarden012&cache_seconds=1" > /dev/null
-          curl -s "https://streak-stats.demolab.com/?user=shadowgarden012" > /dev/null
-          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=shadowgarden012" > /dev/null
-          echo "Cache refreshed successfully ✅"
-      - name: Commit Timestamp Update
+          echo "Pinging stats services to refresh cache..."
+          curl -s "https://github-readme-stats.vercel.app/api?username=shadowgarden012&cache_seconds=1" > /dev/null || true
+          curl -s "https://streak-stats.demolab.com/?user=shadowgarden012" > /dev/null || true
+          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=shadowgarden012" > /dev/null || true
+          echo "Done."
+      - name: Commit and Push Timestamp
         run: |
-          git config user.name "Shadow Bot"
-          git config user.email "bot@shadowgarden.dev"
-          echo "Last auto-refresh: $(date -u '+%Y-%m-%d %H:%M UTC')" > .last-updated
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "Last refresh: $(date -u '+%Y-%m-%d %H:%M UTC')" > .last-updated
           git add .last-updated
-          git diff --cached --quiet || git commit -m "🤖 Auto-refresh: $(date -u '+%Y-%m-%d')"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git diff --cached --quiet && echo "Nothing to commit." && exit 0
+          git commit -m "bot: auto-refresh stats $(date -u '+%Y-%m-%d')"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/shadowgarden012/shadowgarden012.git HEAD:main
