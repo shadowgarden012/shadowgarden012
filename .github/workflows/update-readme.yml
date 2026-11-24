@@ -1,0 +1,29 @@
+name: 📊 Auto-Update README Stats
+on:
+  schedule:
+    - cron: "0 0 * * *"    # Runs every day at midnight UTC
+  workflow_dispatch:         # Manual trigger
+jobs:
+  update:
+    name: Refresh README Metrics
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Refresh GitHub Stats Cache
+        run: |
+          echo "Pinging stats services to refresh cache for shadowgarden012..."
+          curl -s "https://github-readme-stats.vercel.app/api?username=shadowgarden012&cache_seconds=1" > /dev/null
+          curl -s "https://streak-stats.demolab.com/?user=shadowgarden012" > /dev/null
+          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=shadowgarden012" > /dev/null
+          echo "Cache refreshed successfully ✅"
+      - name: Commit Timestamp Update
+        run: |
+          git config user.name "Shadow Bot"
+          git config user.email "bot@shadowgarden.dev"
+          echo "Last auto-refresh: $(date -u '+%Y-%m-%d %H:%M UTC')" > .last-updated
+          git add .last-updated
+          git diff --cached --quiet || git commit -m "🤖 Auto-refresh: $(date -u '+%Y-%m-%d')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
