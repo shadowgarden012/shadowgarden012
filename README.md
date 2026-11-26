@@ -5,44 +5,53 @@
 <div align="center">
 
 <!-- ░░░ ANIMATED WAVE HEADER ░░░ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,20,24&height=250&section=header&text=SHADOW%20GARDEN&fontSize=55&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=%E2%9A%A1%20Full-Stack%20%E2%80%A2%20Cloud%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Cybersecurity%20%E2%80%A2%20Systems&descSize=19&descAlignY=63&descColor=BB86FC"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,20,24&height=250&section=header&text=SHADOW%20GARDEN&fontSize=55&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20%E2%80%A2%20Cloud%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Cybersecurity%20%E2%80%A2%20Systems&descSize=19&descAlignY=63&descColor=BB86FC" alt="Shadow Garden Header"/>
 
 <!-- ░░░ ANIMATED TYPING ░░░ -->
 <a href="https://github.com/shadowgarden012">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=9D4EDD&center=true&vCenter=true&multiline=false&width=750&height=55&lines=⚡+I+am+Shadow+—+Architect+of+Digital+Realms;🧠+AI%2FML+Engineer+%26+LLM+Orchestration+Specialist;🛡️+Cybersecurity+Researcher+%26+Ethical+Hacker;☁️+Cloud-Native+%26+Kubernetes+Cluster+Maestro;🌌+Operating+from+the+shadows+to+build+the+future" alt="Typing Animation"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=23&duration=2800&pause=900&color=9D4EDD&center=true&vCenter=true&multiline=false&width=760&height=55&lines=I+am+Shadow+%E2%80%94+Architect+of+Digital+Realms;AI%2FML+Engineer+%26+LLM+Orchestration+Specialist;Cybersecurity+Researcher+%26+Ethical+Hacker;Cloud-Native+%26+Kubernetes+Cluster+Maestro;Operating+from+the+shadows+to+build+the+future" alt="Typing Animation"/>
 </a>
 
 <br/>
 
-<!-- ░░░ BADGES ROW ░░░ -->
+<!-- ░░░ STATUS BADGES (Clean ASCII URLs for 100% Camo compatibility) ░░░ -->
 <p>
-  <img src="https://komarev.com/ghpvc/?username=shadowgarden012&label=👁️+OBSERVERS&color=7928CA&style=flat-square&abbreviated=true"/>
+  <img src="https://komarev.com/ghpvc/?username=shadowgarden012&label=OBSERVERS&color=7928CA&style=for-the-badge&abbreviated=true" alt="Profile Views"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/⚔️_STATUS-OPERATING_IN_STEALTH-0D1117?style=flat-square&labelColor=7928CA"/>
+  <img src="https://img.shields.io/badge/STATUS-OPERATING_IN_STEALTH-0D1117?style=for-the-badge&labelColor=7928CA" alt="Status"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/🕐_TIMEZONE-UTC%2B5:30-0D1117?style=flat-square&labelColor=BB86FC&color=0D1117"/>
+  <img src="https://img.shields.io/badge/TIMEZONE-UTC%2B5:30-0D1117?style=for-the-badge&labelColor=BB86FC" alt="Timezone"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/🔐_CLEARANCE-LEVEL_OMEGA-0D1117?style=flat-square&labelColor=FF0080"/>
+  <img src="https://img.shields.io/badge/CLEARANCE-LEVEL_OMEGA-0D1117?style=for-the-badge&labelColor=FF0080" alt="Clearance"/>
 </p>
 
 <!-- ░░░ SOCIAL BADGES ░░░ -->
 <p>
-  <a href="https://linkedin.com/in/shadowgarden"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/shadowgarden012?tab=followers"><img src="https://img.shields.io/github/followers/shadowgarden012?label=FOLLOWERS&style=for-the-badge&color=9D4EDD&labelColor=0D1117&logo=github" alt="Followers"/></a>
   &nbsp;
-  <a href="https://twitter.com/shadowgarden012"><img src="https://img.shields.io/badge/Twitter%2FX-%23000000?style=for-the-badge&logo=x&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/shadowgarden"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   &nbsp;
-  <a href="https://discord.gg/shadow"><img src="https://img.shields.io/badge/Discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white"/></a>
+  <a href="https://twitter.com/shadowgarden012"><img src="https://img.shields.io/badge/Twitter%2FX-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"/></a>
   &nbsp;
-  <a href="mailto:shadow@shadowgarden.dev"><img src="https://img.shields.io/badge/ProtonMail-%238B89CC?style=for-the-badge&logo=protonmail&logoColor=white"/></a>
+  <a href="https://discord.gg/shadow"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
   &nbsp;
-  <a href="https://shadowgarden.dev"><img src="https://img.shields.io/badge/Portfolio-%239D4EDD?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+  <a href="mailto:shadow@shadowgarden.dev"><img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" alt="ProtonMail"/></a>
 </p>
+
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,20,24&height=3" alt="Divider"/>
 
 </div>
 
 <br/>
 
----
+<!-- ░░░ BLACK HOLE SINGULARITY ANIMATION ░░░ -->
+
+<div align="center">
+  <img width="100%" src="./assets/blackhole.svg" alt="Shadow Garden Black Hole Singularity"/>
+</div>
+
+<br/>
 
 <!-- ░░░ WHO AM I ░░░ -->
 
@@ -61,13 +70,28 @@
 ║                  Low-Level Systems & Compiler Wizard             ║
 ║                  Blockchain & Web3 Developer                     ║
 ║  philosophy   :  "Build in the shadows. Ship in the light."      ║
-║  status       :  [ ████████████████░░░░ ] Compiling reality...  ║
+║  status       :  [ ████████████████░░░░ ] Compiling reality...   ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
+<details>
+<summary><b>🕵️ Decrypt Classified Dossier (Environment & Telemetry)</b></summary>
 <br/>
 
----
+```yaml
+operating_system : Arch Linux (Hyprland) / Kali Linux / Windows WSL2
+terminal         : Kitty + Zsh + Starship + Tmux
+editor           : Neovim (LazyVim) & VS Code
+primary_focus    : Autonomous AI Agents, Distributed Systems & AppSec
+currently_into   : Rust async internals, eBPF observability & Local LLMs
+fun_fact         : "I debug production at 3 AM with dark roast and zero logs."
+```
+
+</details>
+
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,20,24&height=3" alt="Divider"/>
+<br/>
 
 <!-- ░░░ ANIMATED STATS SECTION ░░░ -->
 
@@ -75,8 +99,13 @@
 
 <div align="center">
 
-<!-- TROPHIES — full width animated -->
+<!-- TROPHIES -->
 <img width="100%" src="https://github-profile-trophy.vercel.app/?username=shadowgarden012&theme=radical&no-frame=true&no-bg=true&margin-w=5&column=7" alt="Trophies"/>
+
+<br/><br/>
+
+<!-- PROFILE SUMMARY TIMELINE -->
+<img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shadowgarden012&theme=tokyonight" alt="Profile Summary"/>
 
 <br/><br/>
 
@@ -84,19 +113,15 @@
 <table>
 <tr>
 <td width="50%">
-
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=shadowgarden012&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=BB86FC&icon_color=03DAC6&text_color=C9D1D9&ring_color=9D4EDD" alt="Stats"/>
-
+  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=shadowgarden012&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=BB86FC&icon_color=03DAC6&text_color=C9D1D9&ring_color=9D4EDD" alt="Stats"/>
 </td>
 <td width="50%">
-
-<img width="100%" src="https://streak-stats.demolab.com/?user=shadowgarden012&theme=tokyonight&hide_border=true&background=0D1117&stroke=BB86FC&ring=7928CA&fire=FF0080&currStreakNum=FF0080&currStreakLabel=BB86FC&sideNums=BB86FC&sideLabels=C9D1D9&dates=C9D1D9" alt="Streak"/>
-
+  <img width="100%" src="https://streak-stats.demolab.com/?user=shadowgarden012&theme=tokyonight&hide_border=true&background=0D1117&stroke=BB86FC&ring=7928CA&fire=FF0080&currStreakNum=FF0080&currStreakLabel=BB86FC&sideNums=BB86FC&sideLabels=C9D1D9&dates=C9D1D9" alt="Streak"/>
 </td>
 </tr>
 <tr>
 <td colspan="2" align="center">
-<img width="75%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shadowgarden012&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=BB86FC&text_color=C9D1D9&langs_count=10" alt="Top Languages"/>
+  <img width="75%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shadowgarden012&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=BB86FC&text_color=C9D1D9&langs_count=10" alt="Top Languages"/>
 </td>
 </tr>
 </table>
@@ -104,42 +129,47 @@
 </div>
 
 <br/>
-
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,20,24&height=3" alt="Divider"/>
+<br/>
 
 <!-- ░░░ ACTIVITY GRAPH ░░░ -->
 
 ## 📈 `$ shadow --activity-graph`
 
 <div align="center">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shadowgarden012&bg_color=0D1117&color=BB86FC&line=9D4EDD&point=FF0080&area=true&area_color=9D4EDD&hide_border=true&custom_title=Shadow%27s%20Contribution%20Heatmap" alt="Activity Graph"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shadowgarden012&bg_color=0D1117&color=BB86FC&line=9D4EDD&point=FF0080&area=true&area_color=9D4EDD&hide_border=true&custom_title=Shadow%27s%20Contribution%20Pulse" alt="Activity Graph"/>
 </div>
 
 <br/>
-
----
 
 <!-- ░░░ SNAKE ANIMATION ░░░ -->
 
 ## 🐍 `$ shadow --contribution-snake`
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shadowgarden012/shadowgarden012/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shadowgarden012/shadowgarden012/output/github-contribution-grid-snake.svg"/>
-  <img alt="Snake animation" width="100%" src="https://raw.githubusercontent.com/shadowgarden012/shadowgarden012/output/github-contribution-grid-snake-dark.svg"/>
-</picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shadowgarden012/shadowgarden012/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shadowgarden012/shadowgarden012/output/github-contribution-grid-snake.svg"/>
+    <img alt="Snake animation" width="100%" src="https://raw.githubusercontent.com/shadowgarden012/shadowgarden012/output/github-contribution-grid-snake-dark.svg"/>
+  </picture>
 </div>
 
 <br/>
-
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,20,24&height=3" alt="Divider"/>
+<br/>
 
 <!-- ░░░ TECH STACK ░░░ -->
 
 ## ⚡ `$ shadow --arsenal --all`
 
 <div align="center">
+
+<!-- GLOSSY ICON GRID -->
+<p>
+  <img src="https://skillicons.dev/icons?i=py,ts,js,rust,go,cpp,java,solidity,bash,react,nextjs,vue,tailwind,threejs,nodejs,fastapi,django,spring,nestjs,graphql,pytorch,tensorflow,opencv,aws,gcp,docker,kubernetes,terraform,githubactions,nginx,linux,postgres,mongodb,redis,mysql,supabase,firebase,neo4j,kali,arch,neovim,vscode,git,figma&perline=11" alt="Tech Stack Icons"/>
+</p>
+
+<br/>
 
 <!-- LANGUAGES -->
 <details open>
@@ -162,8 +192,8 @@
 <br/>
 
 <!-- FRONTEND -->
-<details open>
-<summary><b>🎨 Frontend & UI</b></summary>
+<details>
+<summary><b>🎨 Frontend & UI (Click to expand)</b></summary>
 <br/>
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -181,8 +211,8 @@
 <br/>
 
 <!-- BACKEND -->
-<details open>
-<summary><b>⚙️ Backend & APIs</b></summary>
+<details>
+<summary><b>⚙️ Backend & APIs (Click to expand)</b></summary>
 <br/>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -201,8 +231,8 @@
 <br/>
 
 <!-- AI/ML -->
-<details open>
-<summary><b>🧠 AI, ML & Intelligence</b></summary>
+<details>
+<summary><b>🧠 AI, ML & Intelligence (Click to expand)</b></summary>
 <br/>
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -221,8 +251,8 @@
 <br/>
 
 <!-- CLOUD/DEVOPS -->
-<details open>
-<summary><b>☁️ Cloud, DevOps & Infra</b></summary>
+<details>
+<summary><b>☁️ Cloud, DevOps & Infra (Click to expand)</b></summary>
 <br/>
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
@@ -241,8 +271,8 @@
 <br/>
 
 <!-- DATABASES -->
-<details open>
-<summary><b>🗄️ Databases & Storage</b></summary>
+<details>
+<summary><b>🗄️ Databases & Storage (Click to expand)</b></summary>
 <br/>
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -259,24 +289,26 @@
 <br/>
 
 <!-- SECURITY -->
-<details open>
-<summary><b>🛡️ Security & Hacker Toolkit</b></summary>
+<details>
+<summary><b>🛡️ Security & Hacker Toolkit (Click to expand)</b></summary>
 <br/>
 
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logoColor=white)
+![Hack The Box](https://img.shields.io/badge/Hack_The_Box-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=kalilinux&logoColor=white)
 
 </details>
 
 </div>
 
 <br/>
-
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,20,24&height=3" alt="Divider"/>
+<br/>
 
 <!-- ░░░ FEATURED PROJECTS ░░░ -->
 
@@ -292,7 +324,7 @@
 > Multi-agent orchestration engine with adaptive memory, self-healing DAG workflows & autonomous tool selection
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square)
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
@@ -307,7 +339,7 @@
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![gRPC](https://img.shields.io/badge/-gRPC-244C5A?style=flat-square)
+![gRPC](https://img.shields.io/badge/-gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white)
 
 **Status:** `🟢 Active`
 
@@ -344,8 +376,8 @@
 </div>
 
 <br/>
-
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,20,24&height=3" alt="Divider"/>
+<br/>
 
 <!-- ░░░ SKILLS METER ░░░ -->
 
@@ -364,7 +396,15 @@ UI/UX Design                █████████████░░░░�
 
 <br/>
 
----
+<!-- ░░░ RANDOM DEV QUOTE ░░░ -->
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
+</div>
+
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,20,24&height=3" alt="Divider"/>
+<br/>
 
 <!-- ░░░ FOOTER ░░░ -->
 
@@ -374,15 +414,16 @@ UI/UX Design                █████████████░░░░�
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║  Whether you want to collaborate on open-source, build        ║
-║  next-gen AI systems, or just nerd out on systems design —    ║
-║  the channel is always open.                                  ║
-║                                                               ║
+║  Whether you want to collaborate on open-source, build       ║
+║  next-gen AI systems, or just nerd out on systems design —   ║
+║  the channel is always open.                                 ║
+║                                                              ║
 ║  > linkedin   : linkedin.com/in/shadowgarden                 ║
-║  > twitter    : @shadowgarden012                              ║
+║  > twitter    : @shadowgarden012                             ║
 ║  > discord    : discord.gg/shadow                            ║
 ║  > email      : shadow@shadowgarden.dev (PGP encrypted)      ║
-║  > portfolio  : shadowgarden.dev                             ╚══════════════════════════════════════════════════════════════╝
+║  > portfolio  : shadowgarden.dev                             ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
 <br/>
@@ -392,6 +433,6 @@ UI/UX Design                █████████████░░░░�
 <br/>
 
 <!-- WAVE FOOTER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,20,24&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,20,24&height=120&section=footer" alt="Shadow Garden Footer"/>
 
 </div>
