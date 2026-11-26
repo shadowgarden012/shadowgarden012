@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
+  <defs>
+    <style>
+      .star {
+        animation: twinkle 3s ease-in-out infinite alternate;
+      }
+      .star-slow {
+        animation: twinkle 5.2s ease-in-out infinite alternate-reverse;
+      }
+      .spin-fast {
+        transform-origin: 0px 0px;
+        animation: spin 6s linear infinite;
+      }
+      .spin-med {
+        transform-origin: 0px 0px;
+        animation: spin 11s linear infinite;
+      }
+      .spin-slow {
+        transform-origin: 0px 0px;
+        animation: spin 18s linear infinite reverse;
+      }
+      .spin-particles {
+        transform-origin: 0px 0px;
+        animation: spin 9s linear infinite;
+      }
+      .horizon-pulse {
+        transform-origin: 0px 0px;
+        animation: pulse 4s ease-in-out infinite alternate;
+      }
+      .halo-breathe {
+        transform-origin: 0px 0px;
+        animation: breathe 5s ease-in-out infinite alternate;
+      }
+      .hud-text {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 10px;
+        letter-spacing: 2px;
+        fill: #BB86FC;
+        opacity: 0.72;
+      }
+      .hud-blink {
+        animation: blink 2.2s steps(2, start) infinite;
+      }
+
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+      @keyframes pulse {
+        0%   { transform: scale(0.985); }
+        100% { transform: scale(1.02); }
+      }
+      @keyframes breathe {
+        0%   { opacity: 0.55; transform: scale(0.96); }
+        100% { opacity: 0.92; transform: scale(1.05); }
+      }
+      @keyframes twinkle {
+        0%   { opacity: 0.18; }
+        100% { opacity: 0.95; }
+      }
+      @keyframes blink {
+        0%   { opacity: 0.9; }
+        50%  { opacity: 0.2; }
+        100% { opacity: 0.9; }
+      }
+    </style>
+
+    <!-- Deep Space Background Gradient -->
+    <radialGradient id="spaceBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#170B2B"/>
+      <stop offset="55%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#07090E"/>
+    </radialGradient>
+
+    <!-- Outer Gravitational Glow -->
+    <radialGradient id="bhGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="1"/>
+      <stop offset="36%" stop-color="#7928CA" stop-opacity="0.75"/>
+      <stop offset="56%" stop-color="#9D4EDD" stop-opacity="0.35"/>
+      <stop offset="78%" stop-color="#FF0080" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Photon Ring Gradient -->
+    <linearGradient id="photonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#03DAC6"/>
+      <stop offset="50%" stop-color="#BB86FC"/>
+      <stop offset="100%" stop-color="#FF0080"/>
+    </linearGradient>
+
+    <!-- Accretion Plasma Gradients -->
+    <linearGradient id="diskOuter" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7928CA" stop-opacity="0.1"/>
+      <stop offset="35%" stop-color="#9D4EDD" stop-opacity="0.9"/>
+      <stop offset="65%" stop-color="#FF0080" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#03DAC6" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="diskInner" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#03DAC6"/>
+      <stop offset="50%" stop-color="#E0AAFF"/>
+      <stop offset="100%" stop-color="#FF0080"/>
+    </linearGradient>
+
+    <!-- Blur Filters -->
+    <filter id="glowSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowStrong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+
+    <!-- Clip Paths to Split Accretion Disk Behind & In Front of Event Horizon -->
+    <clipPath id="frontClip">
+      <rect x="-400" y="0" width="800" height="320"/>
+    </clipPath>
+    <clipPath id="backClip">
+      <rect x="-400" y="-320" width="800" height="320"/>
+    </clipPath>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="800" height="320" rx="14" fill="url(#spaceBg)" stroke="#2A1B4E" stroke-width="1.5"/>
+
+  <!-- Starfield -->
+  <g>
+    <circle class="star" cx="58" cy="42" r="1.2" fill="#E0AAFF"/>
+    <circle class="star-slow" cx="122" cy="88" r="1.6" fill="#03DAC6"/>
+    <circle class="star" cx="185" cy="36" r="1.1" fill="#FFFFFF"/>
+    <circle class="star-slow" cx="240" cy="265" r="1.4" fill="#BB86FC"/>
+    <circle class="star" cx="92" cy="215" r="1.3" fill="#FF0080"/>
+    <circle class="star-slow" cx="46" cy="280" r="1.0" fill="#FFFFFF"/>
+    <circle class="star" cx="295" cy="54" r="1.2" fill="#03DAC6"/>
+    <circle class="star-slow" cx="515" cy="44" r="1.5" fill="#BB86FC"/>
+    <circle class="star" cx="610" cy="72" r="1.1" fill="#FFFFFF"/>
+    <circle class="star-slow" cx="695" cy="38" r="1.7" fill="#FF0080"/>
+    <circle class="star" cx="745" cy="118" r="1.3" fill="#03DAC6"/>
+    <circle class="star-slow" cx="668" cy="245" r="1.4" fill="#E0AAFF"/>
+    <circle class="star" cx="752" cy="272" r="1.2" fill="#FFFFFF"/>
+    <circle class="star-slow" cx="565" cy="285" r="1.5" fill="#03DAC6"/>
+    <circle class="star" cx="148" cy="290" r="1.1" fill="#BB86FC"/>
+    <circle class="star-slow" cx="635" cy="175" r="1.0" fill="#FFFFFF"/>
+    <circle class="star" cx="170" cy="145" r="1.2" fill="#E0AAFF"/>
+  </g>
+
+  <!-- BLACK HOLE ASSEMBLY (Centered at 400, 160) -->
+  <g transform="translate(400, 160)">
+
+    <!-- Ambient Singularity Aura -->
+    <circle class="halo-breathe" cx="0" cy="0" r="145" fill="url(#bhGlow)" filter="url(#glowStrong)"/>
+
+    <!-- Gravitational Lensing Top/Bottom Photon Arches (Gargantua style) -->
+    <g class="horizon-pulse" filter="url(#glowSoft)">
+      <ellipse cx="0" cy="-4" rx="76" ry="72" fill="none" stroke="url(#photonGrad)" stroke-width="3.5" opacity="0.75"/>
+      <ellipse cx="0" cy="4" rx="74" ry="68" fill="none" stroke="#9D4EDD" stroke-width="2" opacity="0.45"/>
+    </g>
+
+    <!-- BACK HALF OF ACCRETION DISK (Behind Event Horizon) -->
+    <g transform="rotate(-11)" clip-path="url(#backClip)">
+      <g transform="scale(1, 0.28)">
+        <circle class="spin-slow" cx="0" cy="0" r="245" fill="none" stroke="url(#diskOuter)" stroke-width="14" stroke-dasharray="180 65 95 45" opacity="0.55" filter="url(#glowSoft)"/>
+        <circle class="spin-med" cx="0" cy="0" r="205" fill="none" stroke="url(#diskOuter)" stroke-width="10" stroke-dasharray="140 50 70 30" opacity="0.7"/>
+        <circle class="spin-fast" cx="0" cy="0" r="165" fill="none" stroke="url(#diskInner)" stroke-width="7" stroke-dasharray="110 35 60 25" opacity="0.85"/>
+        <circle class="spin-med" cx="0" cy="0" r="125" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="70 40 30 20" opacity="0.75"/>
+      </g>
+    </g>
+
+    <!-- EVENT HORIZON (Absolute Black Core) -->
+    <g class="horizon-pulse">
+      <circle cx="0" cy="0" r="64" fill="#000000"/>
+      <!-- Razor-sharp Photon Ring -->
+      <circle cx="0" cy="0" r="65" fill="none" stroke="url(#photonGrad)" stroke-width="2.2" filter="url(#glowSoft)"/>
+      <circle cx="0" cy="0" r="63.5" fill="none" stroke="#FFFFFF" stroke-width="0.9" opacity="0.85"/>
+    </g>
+
+    <!-- FRONT HALF OF ACCRETION DISK (In Front of Event Horizon) -->
+    <g transform="rotate(-11)" clip-path="url(#frontClip)">
+      <g transform="scale(1, 0.28)">
+        <circle class="spin-slow" cx="0" cy="0" r="245" fill="none" stroke="url(#diskOuter)" stroke-width="16" stroke-dasharray="180 65 95 45" opacity="0.78" filter="url(#glowSoft)"/>
+        <circle class="spin-med" cx="0" cy="0" r="205" fill="none" stroke="url(#diskOuter)" stroke-width="12" stroke-dasharray="140 50 70 30" opacity="0.9"/>
+        <circle class="spin-fast" cx="0" cy="0" r="165" fill="none" stroke="url(#diskInner)" stroke-width="8" stroke-dasharray="110 35 60 25" opacity="0.95"/>
+        <circle class="spin-med" cx="0" cy="0" r="125" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-dasharray="70 40 30 20" opacity="0.9"/>
+      </g>
+    </g>
+
+    <!-- Orbiting Relativistic Sparks -->
+    <g transform="rotate(-11)">
+      <g transform="scale(1, 0.30)">
+        <g class="spin-particles">
+          <circle cx="220" cy="0" r="4" fill="#03DAC6" filter="url(#glowSoft)"/>
+          <circle cx="-210" cy="40" r="3.5" fill="#FF0080" filter="url(#glowSoft)"/>
+          <circle cx="95" cy="-165" r="3" fill="#E0AAFF"/>
+          <circle cx="-130" cy="-120" r="4.5" fill="#FFFFFF"/>
+          <circle cx="150" cy="140" r="3.5" fill="#BB86FC"/>
+        </g>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- Minimal Cyberpunk HUD Overlay -->
+  <text x="24" y="30" class="hud-text">SINGULARITY // SGR-A*</text>
+  <text x="24" y="45" class="hud-text" style="fill:#03DAC6;opacity:0.8">EVENT HORIZON : LOCKED</text>
+
+  <text x="776" y="30" text-anchor="end" class="hud-text">SHADOW GARDEN CORE</text>
+  <text x="776" y="45" text-anchor="end" class="hud-text hud-blink" style="fill:#FF0080">● GRAVITY WELL ACTIVE</text>
+
+  <text x="24" y="300" class="hud-text" style="opacity:0.5">SCHWARZSCHILD RADIUS : ∞</text>
+  <text x="776" y="300" text-anchor="end" class="hud-text" style="opacity:0.5">HAWKING RADIATION : NOMINAL</text>
+</svg>
