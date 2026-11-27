@@ -89,6 +89,36 @@ fun_fact         : "I debug production at 3 AM with dark roast and zero logs."
 
 </details>
 
+<details>
+<summary><b>🗺️ View Shadow Production Blueprint (System Architecture)</b></summary>
+<br/>
+
+```text
+  [ Client / Edge ] ──► [ Zero-Trust WAF & Mesh ] ──► [ gRPC / Kafka Backbone ]
+                                                                 │
+           ┌─────────────────────────────────────────────────────┘
+           ▼
+  [ Autonomous LLM Core ] ◄──► [ Redis Vector Cache ] ◄──► [ Postgres / Neo4j ]
+           │
+           ▼
+  [ eBPF + Prometheus + Grafana Telemetry ] ──► [ Self-Healing K8s Operators ]
+```
+
+</details>
+
+<details>
+<summary><b>🗝️ [CLASSIFIED] Shadow Protocol Transmission (Base64 Cipher)</b></summary>
+<br/>
+
+```text
+Ciphertext (UTF-8 / Base64):
+V2UgbHVyayBpbiB0aGUgc2hhZG93cyB0byBzZXJ2ZSB0aGUgbGlnaHQuIEkgYW0gQXRvbWljLg==
+
+Hint: Decode via `echo "<cipher>" | base64 -d`
+```
+
+</details>
+
 <br/>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,20,24&height=3" alt="Divider"/>
 <br/>
@@ -153,6 +183,18 @@ fun_fact         : "I debug production at 3 AM with dark roast and zero logs."
     <img alt="Snake animation" width="100%" src="https://raw.githubusercontent.com/shadowgarden012/shadowgarden012/output/github-contribution-grid-snake-dark.svg"/>
   </picture>
 </div>
+
+<br/>
+
+<details>
+<summary><b>🏙️ Render 3D Isometric Contribution Skyline (Requires 3D-Contrib Action)</b></summary>
+<br/>
+
+<div align="center">
+  <img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Skyline"/>
+</div>
+
+</details>
 
 <br/>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,20,24&height=3" alt="Divider"/>
@@ -379,20 +421,21 @@ fun_fact         : "I debug production at 3 AM with dark roast and zero logs."
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,20,24&height=3" alt="Divider"/>
 <br/>
 
-<!-- ░░░ SKILLS METER ░░░ -->
+<!-- ░░░ SKILLS METER (ANIMATED HUD) ░░░ -->
 
 ## 🎯 `$ shadow --skill-matrix`
 
-```
-Full-Stack Engineering      ████████████████████  100%
-Cloud Architecture          ██████████████████░░   90%
-AI / ML Engineering         █████████████████░░░   85%
-Cybersecurity               ████████████████░░░░   80%
-Blockchain / Web3           ██████████████░░░░░░   70%
-Low-Level Systems           ████████████████░░░░   80%
-DevOps / SRE                ██████████████████░░   90%
-UI/UX Design                █████████████░░░░░░░   65%
-```
+<div align="center">
+  <img width="100%" src="./assets/skills-hud.svg" alt="Shadow Skill Telemetry HUD"/>
+</div>
+
+<br/>
+
+<!-- ░░░ NEURAL EQUALIZER WAVEFORM ░░░ -->
+
+<div align="center">
+  <img width="100%" src="./assets/waveform.svg" alt="Shadow Neural Link Waveform"/>
+</div>
 
 <br/>
 
@@ -425,6 +468,15 @@ UI/UX Design                █████████████░░░░�
 ║  > portfolio  : shadowgarden.dev                             ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
+
+<br/>
+
+<!-- INTERACTIVE GUESTBOOK -->
+<p>
+  <a href="https://github.com/shadowgarden012/shadowgarden012/issues/new?title=Shadow+Ledger+Entry&body=Leave+a+message+for+Shadow+here...">
+    <img src="https://img.shields.io/badge/SIGN_THE_SHADOW_LEDGER-LEAVE_A_MESSAGE-9D4EDD?style=for-the-badge&logo=github&labelColor=0D1117" alt="Sign Shadow Ledger"/>
+  </a>
+</p>
 
 <br/>
 
